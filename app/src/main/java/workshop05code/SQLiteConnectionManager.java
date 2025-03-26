@@ -131,9 +131,9 @@ public class SQLiteConnectionManager {
             pstmt.setInt(1, id);   
             pstmt.setString(2, word); 
             pstmt.executeUpdate();
-            
+
         } catch (SQLException e) {
-            logger.log(Level.SEVERE, "Error in addValidWord", e);
+            logger.log(Level.WARNING, "Error in addValidWord", e);
         }
     }
 
@@ -159,7 +159,7 @@ public class SQLiteConnectionManager {
             return false;
     
         } catch (SQLException e) {
-            logger.log(Level.SEVERE, "Error in isValidWord", e);
+            logger.log(Level.WARNING, "Error in isValidWord", e);
             return false;
         }
     }
