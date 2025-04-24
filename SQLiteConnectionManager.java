@@ -32,7 +32,7 @@ public class SQLiteConnectionManager {
     }
 
     /**
-     * Connect to a sample database
+     * Connect to a sample database 
      *
      * @param fileName the database file name
      */
