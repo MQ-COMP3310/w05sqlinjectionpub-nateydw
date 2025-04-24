@@ -1,5 +1,3 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
-    "java.compile.nullAnalysis.mode": "automatic",
-    "sarif-viewer.connectToGithubCodeScanning": "off"
+    "java.compile.nullAnalysis.mode": "automatic"
 }

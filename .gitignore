@@ -1,6 +1,8 @@
-*.class
-app/bin/main/workshop06_code/App.class
-app/bin/main/workshop06_code/SQLiteConnectionManager.class
-hello_logger.log.*
-app/hello_logger.log.*
-app/bin/main/workshop06_code/App.class
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+.DS_Store
+*/.DS_Store
+app/sqlite/chessGames.db
